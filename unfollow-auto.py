@@ -7,7 +7,7 @@ from time import sleep
 import random
 
 
-service = Service('C:/Users/rotem/Desktop/bots/unfollow-auto/chromedriver-win64/chromedriver.exe')
+service = Service('path/to/your/chromedriver.exe')
 
 driver = webdriver.Chrome(service=service)
 
